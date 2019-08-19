@@ -4,7 +4,7 @@ def square_array(array)
   
   while array[counter] do 
     squared_number = array[counter] ** array[counter]
-    new_array << squared_number
+    new_array.push(squared_number)
     counter += 1
   end
   new_array
