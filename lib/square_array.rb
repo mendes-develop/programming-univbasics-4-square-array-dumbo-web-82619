@@ -7,7 +7,7 @@ def square_array(array)
     new_array << squared_number
     counter += 1
   end
-  
+  new_array
 end
 
 numbers = [1,2,3]
